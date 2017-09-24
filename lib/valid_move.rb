@@ -7,6 +7,7 @@ def valid_move?(board, index)
       false
     end
   else
+    puts "out of scope"
     false
   end
 end
